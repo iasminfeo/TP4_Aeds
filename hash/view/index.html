@@ -1,20 +1,32 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Visualização de Hash Extensível</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Tabela Hash Extensível</h1>
-  <div id="controles">
-    <input type="number" id="chaveInput" placeholder="Chave (int)">
-    <input type="text" id="valorInput" placeholder="Valor">
-    <button onclick="inserir()">Inserir</button>
+  <h1>Hash Extensível</h1>
+  <div id="explicacao"></div>
+  <div id="painel">
+    <div id="diretorio-container">
+      <h2>Diretório <span id="pg-label">(p = ?)</span></h2>
+      <div id="diretorio"></div>
+    </div>
+    <div id="setas">
+      <!-- Linhas desenhadas por SVG -->
+      <svg id="svg-setas"></svg>
+    </div>
+    <div id="buckets-container">
+      <h2>Buckets</h2>
+      <div id="buckets"></div>
+    </div>
   </div>
-  <div id="estrutura"></div>
-
-  <script src="hash.js"></script>
+  <div id="controls">
+    <input type="number" id="chave" placeholder="Digite a chave" />
+    <button onclick="inserir()">Inserir</button>
+    <button onclick="limpar()">Limpar</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
