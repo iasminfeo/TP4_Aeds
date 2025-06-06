@@ -8,8 +8,10 @@ Este trabalho implementa uma **visualização interativa de uma Tabela Hash Exte
 
 ## 👥 Participantes
 
-- **[Seu Nome Aqui]**
-- (Adicione mais nomes se aplicável)
+- **Iasmin Oliveira**
+- **Cauã Costa**
+- **Andriel Mark**
+
 
 ---
 
@@ -69,7 +71,7 @@ Apesar das limitações do ambiente web quanto a manipulação de arquivos, todo
 ## ✅ Checklist
 
 - [x] A visualização interativa da Tabela Hash Extensível foi criada?
-- [ ] Há um vídeo de até 2 minutos demonstrando o uso da visualização?
+- [x] Há um vídeo de até 2 minutos demonstrando o uso da visualização?
 - [x] O trabalho está funcionando corretamente?
 - [x] O trabalho está completo?
 - [x] O trabalho é original e não a cópia de um trabalho de um colega?
